@@ -9,10 +9,15 @@ If your head hurts and you need to open the Jack, you are doing it right.
 Graduates will earn a general knowledge of Algorithms and Data Structures, including:
 
 Sorting Algorithms
+
 Searching Algorithms
+
 Basic Data Abstraction
+
 Linked List manipulation
+
 Tree manipulation
+
 Graph manipulation and traversal
 
 This is more academic than pragmatic, and met to be an initial stepping stone. Proficiency will lend towards increased performance in interviews.
