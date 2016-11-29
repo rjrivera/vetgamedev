@@ -16,8 +16,11 @@ The cloud9 web platform should already have the gcc compiler installed. To test 
 
 To Navigate: 
 cd ..          - move up a directory
+
 cd /[dir name] - move down into a directory [dir name]
+
 ls             - list all files and directories in current directory
+
 rm             - remove a file
 
 You can perform advanced features of these linux commands using 'flags' 
