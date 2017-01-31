@@ -1,3 +1,5 @@
+/*Copyright 2017 Robert Rivera
+*/
 #include <iostream> 
 #include <string>
 //the string library is required for string data-type operations.

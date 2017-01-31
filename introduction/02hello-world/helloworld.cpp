@@ -1,4 +1,5 @@
 /*
+Copyright 2017 Robert Rivera
 communicate to the compiler what libraries you require using the include directive.
 
 library source files can be included locally or from the gcc's repo of premade libraries.
