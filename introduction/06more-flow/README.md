@@ -11,9 +11,10 @@ Now a char is a single byte of data. 0x00 - 0xFF the alphabet is 0x41-0x7A [A,B,
 Humans don't memorize the ASCII table tho - unless you work at google - so we use char literals. Let's use char literals to control a for statement. 
 
 //Print the alphabet!
+
 for (char let = 'a'; let <= 'z'; let++) cout << let << " " << endl; //single statement control loops don't need brackets :3
 
-easy now that we understand how the compiler interprets a different datatype. 
+Makes sense now that we understand how the compiler interprets a different datatype. 
 what about the 'string' data type? Similar concept. "ant" < "bat" < "batman" 
 The concept of ordered values is known as lexicography. "ant" is lexicographically less than "bat";
 
@@ -24,12 +25,19 @@ This is important to understand because when you begin reading about sorting, so
 what happens when we throw together a large volume of if-statements?
 
 if(true){
+
 	cout << "New Hope" << endl;
+
 } 
+
 else cout << "Phantom Menace" << endl;
+
 if(false) cout <<"Attack of the CLones" << endl;
+
 if(true) cout << "Empire" << endl;
+
 if(false) cout << "RotS" << endl;
+
 else cout << "RotJ" << endl;
 
 The compiler is smart - very smart - made by very smart people.
@@ -40,7 +48,9 @@ Bottomline: Not every if-statement requires and accompanying else statement.
 However, what if we want to group multiple conditions along the same 'logic train'? There is a mechanism called the else-if statement. Lets look at it in action:
 
 if(false) cout << "1" << endl;
+
 else if(true) cout <<"2" << endl;
+
 else cout << "3" << ednl;
 
 
