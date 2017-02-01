@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = ops2.cpp
+OBJS = control2.cpp
 
 #CC specifies which compiler we're using
 CC = g++
