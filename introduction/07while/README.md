@@ -12,7 +12,7 @@ The trick is understanding what the problem set requires and how you leverage th
 
 for instance, in a for loop, you tend to have a good idea about how many iterations are needed to count to ten. However, more nuanced conditions may arise. 
 
-'''c_cpp
+'''cpp
 //I want to quit when I find the first numbr divisibla by ten and two.
 int i = 32;
 bool div = false
