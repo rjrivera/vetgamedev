@@ -69,9 +69,9 @@ for (int i = 1; i <=5; i++) {
 Hopefully that code didn't intimidate you, don't worry, I provided it in the first .cpp file for this section. 
 The comments should explain whats happening, but an important lession to take from this - 
 <b>scoping of a variable can only go 'lower', not 'higher'</b>
-not the lower nested for loop has access to i, but the upper loop does not have access to ltr. 
+Now the lower nested for loop has access to i, but the upper loop does not have access to ltr. 
 
-BottomLine: nested for-loops are a thing, and a uefule thing when you start to encounter rather demanding requests, as seen above
+BottomLine: nested for-loops are a thing, and a useful thing when you start to encounter rather demanding requests, as seen above
 
 Nesting is usually expected to be 2, maybe 3 levels deep, but anything deeper and you are starting to write badly styled code.
 Good object oriented programing will take care of that for you. 
