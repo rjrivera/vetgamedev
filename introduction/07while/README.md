@@ -16,7 +16,7 @@ for instance, in a for loop, you tend to have a good idea about how many iterati
 //I want to quit when I find the first numbr divisibla by ten and two.
 int i = 32;
 bool div = false
-if(32%10 == 0 && 2%10 == 0) div = true;
+if(i%10 == 0 && i%2 == 0) div = true;
 while(div){
 	if(32%10 == 0 && 2%10 == 0) div = true;
 	else i++;
