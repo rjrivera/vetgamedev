@@ -18,7 +18,7 @@ int i = 32;
 bool div = false
 if(i%10 == 0 && i%2 == 0) div = true;
 while(div){
-	if(32%10 == 0 && 2%10 == 0) div = true;
+	if(i%10 == 0 && i%10 == 0) div = true;
 	else i++;
 }
 cout << i << " is divisible by ten and two\n";

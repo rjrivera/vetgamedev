@@ -1,6 +1,6 @@
 #include <iostream> 
 #include <string>
-
+#include <cstdlib>
 
 using namespace std;
 /*
@@ -32,12 +32,40 @@ char cypherLtr;
 
 }
 
-//todo
+/*
+	TODO[ ] below is a different version of the cypher function; it accepts a value for it's offset and prints to console the 
+	cypher alphabet of the given offset.
+
+	Howerer there is an observable bug. near the end of the alphabet, rather than cycling to the start of the alphabet, it proceeds down the ASCII table
+	and prints other chars. (try it, make and execute the file as is). 
+
+	it's almost as IF some type of conditional logic is needed. 
+*/
+
+void printCypherAlpha(int offset) {
+	
+	//temporary variable used to track the current cypherletter being processed. 
+	char cypherLtr;
+
+	for(char ltr = 'a'; ltr <= 'z'; ltr++) {
+		cypherLtr = ltr;
+		cypherLtr += offset;
+		cout << cypherLtr << " ";
+	}
+
+	
+
+
+}
+
+
 
 
 int main() {
-
+	//No need to alter these function calls unless you wish to observe changes 
 	printCypherAlpha(1, 5);
-
+	cout << endl;
+	printCypherAlpha(5);
+	cout << endl;
 	return 1;
 }
