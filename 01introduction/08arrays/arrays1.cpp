@@ -56,7 +56,7 @@ int main() {
 
 	//TODO[ ] implement your own second test, write what you expect to see printed to console.
 	// feel free to copy paste the code above to use as a template. 
- 	// remember, since length is already used, you don't need to rename it
+ 	// remember, since length is already used, you don't need to reinitialize it, you can just redefine it <  length = 6;  >
 	// however, you can't resize an array, so if you want a different sized one, you need a new array, and thus a different named array. 
 
 
