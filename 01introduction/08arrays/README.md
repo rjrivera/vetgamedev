@@ -1,9 +1,12 @@
 RECAPS:
 
 [x] Gained exposure and practice with the while-loop
+
 [x] learned the tortoise-and-hare algorithm for cycle detection. Relevant for linked list cycle detection 
-The T-H algorithm will resurface and given more detail when covering data strutures. It isn't an arbitrary exercise.  
+	The T-H algorithm will resurface and given more detail when covering data strutures. It isn't an arbitrary exercise.  
+
 [x] familiarity with functions to improve code readability, modularity, and testability (important principles).
+
 [x] learned about caesar cyphers
 	- [in a big4 interview, I was asked to describe what encryption was on a fundamental level, so good exposure]
 
