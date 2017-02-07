@@ -12,8 +12,8 @@ RECAPS:
 
 # Notes on previous lesson
 by now I hope that you have learned the difference between '=' and '=='.
-'=' is an assignment value and changes the value of the left-hand value. 
-'==' is a boolean operator that yields true or false depending on the operators. checks for equivalancy. 
+'=' is an assignment operator and changes the value of the left-hand variable. 
+'==' is a boolean operator that yields true or false depending on the operatands. Used to check for equivalancy. 
 
 # Arrays
 
