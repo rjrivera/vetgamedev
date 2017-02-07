@@ -19,7 +19,8 @@ int main() {
 	/*
 	TODO[ ] modify the while loop statement to stop updateing the values when they are equal. 
 	*/
-	while (1) {
+	while (1) { //the int literal value of 1 serves as the bool equivalent of 'true' 
+		//as-is the while loop iterates indefinately and will result in a segfault.
 		update(a, b);
 		//the compiler reads the next two lines as one statement - 
 		//statement is spread to two lines to improve readability. 
