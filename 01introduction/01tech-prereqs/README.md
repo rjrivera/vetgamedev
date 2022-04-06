@@ -1,7 +1,11 @@
 Technology Stack:
-OS         - ubuntu (linuX)
+
+OS         - ubuntu (linux)
+
 Editor     - VIM
+
 Compiler   - GCC
+
 build tool - makefile
 
 Pedagogy:
